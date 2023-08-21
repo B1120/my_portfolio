@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"> <a href="#">home</a></li>
+            <li class="link"> <a href="#projects">projects</a></li>
+            <li class="link"> <a href="#Education">education</a></li>
+            <li class="link"> <a href="#skills"> skills</a> </li>
+            <li class="link"> <a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <!--home section-->
+
+    <section class="home-section.active">
+        <h1 class="hero-heading">hello!! <br> i am bhavuk garg</h1>
+        <img src="css/profile.jpg" class="home-css" alt="">
+    </section>
+
+    <!-- project section -->
+    <section class="project-section.active" id="projects">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-content">
+                    <h1 class="project-title"> Tic-Tac-Toe</h1>
+                    <p class="project-info">
+                        Tic Tac Toe game developed using HTML, CSS, and JavaScript provides an engaging and interactive experience for players, allowing them to enjoy the classic game of strategy and critical thinking in a modern digital format. <br />
+                        <mark> <b>Tech Stack:</b></mark> HTML3, CSS3, JavaScript
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github" onclick="window.open('https://github.com/B1120/tic_tac_toe.git');">github repo </button>
+                        <button class="project-btn live " onclick="window.open('https://b1120.github.io/tic_tac_toe/');">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h1 class="project-title"> Student Management</h1>
+                    <p class="project-info">
+                    This project is to manage the database of student in school. This application has administrative page where admin can manage records of students and can make the required modification in the 
+                    detail. <br>
+                    <mark> <b>Tech Stack:</b></mark> ASP.Net MVC using Identity Framework, C#, MSSQL SERVER 
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="project-card">    
+                <div class="project-content">
+                    <h1 class="project-title"> Employee Management</h1>
+                    <p class="project-info">
+                        This project is to manage the employees of the company. The application has registration page where employee can register themselves and admin can approve them or make the required modification in the detail.
+                    </p>
+                </div>
+            </div> -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h1 class="project-title">  E-Commerce Website</h1>
+                    <p class="project-info">
+                        A website is designed to provide a platform for selling of different products. The website has option 
+                        to view the products and add to cart. The website has one admin portal to manage the activities 
+                        being performed on website as well as login via 3rd party. <br/>
+                        <mark> <b>Tech Stack:</b></mark> ASP.Net Core MVC using Identity Framework, MSSQL SERVER, C#, jQuery
+                    </p>
+                    <!-- <div class="project-btn-grp">
+                        <button class="project-btn github">github report</button>
+                        <button class="project-btn live ">see live</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="project-card">
+                
+                <div class="project-content">
+                    <h1 class="project-title"> National Park </h1>
+                    <p class="project-info">
+                        This is an informational website which provides detail of the National Park along with location using Web API. <br />
+                        <mark> <b>Tech Stack:</b></mark> ASP.Net Web API, MSSQL SERVER, C#
+                    </p>
+                    <!-- <div class="project-btn-grp">
+                        <button class="project-btn github">github report</button>
+                        <button class="project-btn live ">see live</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section class="about-section.active"id="skills">
+        <!-- skills-section-->
+        <div class="skill-section" >
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="css/html.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 70%</div> -->
+                    <h1 class="skill-name">HTML</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/css3.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 50%</div> -->
+                    <h1 class="skill-name">CSS</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/js.jpg" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 30%</div> -->
+                    <h1 class="skill-name"> JS</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <!-- <div class="skill-card">
+                    <img src="css/nodejs.png" class="skill-img" alt="">
+                    <div class="skill-level"> 50%</div>
+                    <h1 class="skill-name">Node.js</h1>
+                    <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="css/reactjs.png" class="skill-img" alt="">
+                    <div class="skill-level"> 50%</div>
+                    <h1 class="skill-name">React.js</h1>
+                    <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p>
+                </div> -->
+                <div class="skill-card">
+                    <img src="css/mssql.jpg" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 65%</div> -->
+                    <h1 class="skill-name"> MS SQL</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/netmvc.jpg" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 55%</div> -->
+                    <h1 class="skill-name">  .Net MVC</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/NET_Core.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 50%</div> -->
+                    <h1 class="skill-name">  .Net Core MVC</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/webapi.jpg" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 70%</div> -->
+                    <h1 class="skill-name">  Web API</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="css/agile.png" class="skill-img" alt="">
+                    <!-- <div class="skill-level"> 40%</div> -->
+                    <h1 class="skill-name"> Agile</h1>
+                    <!-- <p class="skill-info"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam fugit at fuga eligendi debitis temporibus expedita. Quia esse vero velit. Illo hic veniam error voluptas quam id debitis perspiciatis totam.</p> -->
+                </div>
+            </div>
+        </div> 
+
+        <!-- timeline-->
+        <div class="timeline" id="Education" >
+            <h1 class="heading"> education and experience</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title"> 2017</h1>
+                    <p class="card-detail">Matric</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title"> 2019</h1>
+                    <p class="card-detail">Senior Secondary</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title"> 2022</h1>
+                    <p class="card-detail">Bachelor of Commerce</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title"> 2022</h1>
+                    <p class="card-detail">6 months  Industrial Training</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact section -->
+    <!-- <section class="contact-section.active">
+            <form class="contact-form">
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="name"> <br />
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="email"> <br />
+                <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea> <br />
+                <button type="submit" class="form-submit-btn">connect me</button>
+            </form>
+         map 
+        <div class="connect">
+            <h3 class="contact-heading">Let's Connect</h3>
+
+        </div>
+    </section> -->
+    <!-- <div class="container" id="contact">
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name"> <br />
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="email"> <br />
+                <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea> <br />
+                <button type="submit" class="form-submit-btn">connect me</button>
+        </form> -->
+        <!-- <div class="network">
+            <div id="idLinkedInIcon" onclick="window.open('https://www.linkedin.com/in/bhavuk-garg-0222741b5/');">in</div>
+            <a href=" https://www.linkedin.com/in/bhavuk-garg-0222741b5/"> Bhavuk Garg</a>
+            <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-gmail-32.png"> <br />
+            <img src="css/gmail.png" class="gmail"> <a href="mailto: bhavukgarg2811@gmail.com">bhavukgarg2811@gmail.com </a> <br/>
+            <img src="css/phone.png" class="phone"> <a  href="tel: +91-8168792239">+91 8168792239 </a> 
+    </div> -->
+</body>
+ <!-- Footer-->
+
+    <footer class="footer"> 
+    <h2 class="connect">Connect Me </h2>        
+
+        <div id="idLinkedInIcon" onclick="window.open('https://www.linkedin.com/in/bhavuk-garg-0222741b5/');">in</div>
+        <a href=" https://www.linkedin.com/in/bhavuk-garg-0222741b5/"> Bhavuk Garg</a>
+
+        <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-gmail-32.png"> 
+        <img src="css/gmail.png" class="gmail"> <a href="mailto: bhavukgarg2811@gmail.com">bhavukgarg2811@gmail.com </a> 
+        <img src="css/phone.png" class="phone"> <a  href="tel: +91-8168792239">+91 8168792239 </a> 
+    </footer> 
+    <script src="app.js"></script>
+</html>
